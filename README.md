@@ -34,9 +34,9 @@
 
 ## <a name="literature-survey"></a> Literature Survey
 The project references a range of research papers related to speech recognition, accent translation, NLP, and real-time streaming technologies:
- -Speech Recognition Research: Discusses advancements in STT using Google Speech-to-Text API and Mozilla DeepSpeech.
- -Phoneme Processing: Reviews G2P models like Phonetisaurus for converting text to phonetic representations.
- -Text-to-Speech: Covers the use of Google TTS and Mozilla TTS for accent-specific speech synthesis.
+ - Speech Recognition Research: Discusses advancements in STT using Google Speech-to-Text API and Mozilla DeepSpeech.
+ - Phoneme Processing: Reviews G2P models like Phonetisaurus for converting text to phonetic representations.
+ - Text-to-Speech: Covers the use of Google TTS and Mozilla TTS for accent-specific speech synthesis.
 
 The following are the reference papers:
 
@@ -45,21 +45,21 @@ The following are the reference papers:
 ## <a name="methodology"></a> Methodology
 The methodology is broken down into multiple stages to handle the real-time translation of accents:
 
--Speech Recognition (STT):
- Tools: Google Speech-to-Text API, Mozilla DeepSpeech
+- Speech Recognition (STT):
+  Tools: Google Speech-to-Text API, Mozilla DeepSpeech
  Convert spoken words into text in real-time.
 
--Text Processing (Accent Translation):
- Tools: Phonetisaurus, NLTK, spaCy
- Modify the text to match the target accent’s phonetic rules.
+- Text Processing (Accent Translation):
+  Tools: Phonetisaurus, NLTK, spaCy
+  Modify the text to match the target accent’s phonetic rules.
 
--Text-to-Speech (TTS):
- Tools: Google TTS, Mozilla TTS
- Convert the processed text back into speech with the desired accent.
+- Text-to-Speech (TTS):
+  Tools: Google TTS, Mozilla TTS
+  Convert the processed text back into speech with the desired accent.
 
--Real-Time Streaming:
- Tools: WebRTC, Socket.IO
- Ensure real-time communication with minimal latency using streaming technologies
+- Real-Time Streaming:
+  Tools: WebRTC, Socket.IO
+  Ensure real-time communication with minimal latency using streaming technologies
 
 ---
 
