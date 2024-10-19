@@ -34,9 +34,9 @@
 
 ## <a name="literature-survey"></a> Literature Survey
 The project references a range of research papers related to speech recognition, accent translation, NLP, and real-time streaming technologies:
--Speech Recognition Research: Discusses advancements in STT using Google Speech-to-Text API and Mozilla DeepSpeech.
--Phoneme Processing: Reviews G2P models like Phonetisaurus for converting text to phonetic representations.
--Text-to-Speech: Covers the use of Google TTS and Mozilla TTS for accent-specific speech synthesis.
+ -Speech Recognition Research: Discusses advancements in STT using Google Speech-to-Text API and Mozilla DeepSpeech.
+ -Phoneme Processing: Reviews G2P models like Phonetisaurus for converting text to phonetic representations.
+ -Text-to-Speech: Covers the use of Google TTS and Mozilla TTS for accent-specific speech synthesis.
 
 The following are the reference papers:
 
