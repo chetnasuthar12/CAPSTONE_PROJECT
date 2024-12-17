@@ -35,20 +35,19 @@
 The methodology is broken down into multiple stages to handle the real-time translation of accents:
 
 - Speech Recognition (STT):
-  Tools: Google Speech-to-Text API, Mozilla DeepSpeech
- Convert spoken words into text in real-time.
+  Tools: Google Speech-to-Text API
+  Convert spoken words into text in real-time.
 
-- Text Processing (Accent Translation):
-  Tools: Phonetisaurus, NLTK, spaCy
-  Modify the text to match the target accent’s phonetic rules.
+- Language Translation:
+  Tools: Google translation API
+  For efficient text translation between source and target language.
 
 - Text-to-Speech (TTS):
-  Tools: Google TTS, Mozilla TTS
+  Tools: Google TTS
   Convert the processed text back into speech with the desired accent.
 
-- Real-Time Streaming:
-  Tools: WebRTC, Socket.IO
-  Ensure real-time communication with minimal latency using streaming technologies
+- Efficient File Handling:
+  Store temporary audio files dynamically with UUID-based unique naming.
 
 ---
 
